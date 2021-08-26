@@ -1,0 +1,1 @@
+# shizudai-pokegpa-chrome-extension
