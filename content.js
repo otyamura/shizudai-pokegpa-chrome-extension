@@ -10,7 +10,8 @@ $(function(){
       dataType: "json",
       success: function(result, status, xhr){
         const pokeName = result.names[0].name;
-        showMessage(`あなたのGPAポケモンは${pokeName}です!`);
+        showMessage(`あなたのGPAポケモンは<b>${pokeName}</b>です!`);
+        showMessage(`<img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${number}.png" style="background-color: #eeeeee;border: solid 1px #9e9e9e;">`);
       },
       error: function(xhr, status, error) {
         console.log(error);
@@ -23,6 +24,6 @@ function showMessage(str) {
   const tableSelector = 'body > table:nth-child(3)';
   const tableElement = document.querySelector(tableSelector);
   const element = document.createElement('p');
-  element.textContent = str;
+  element.innerHTML = str;
   tableElement.appendChild(element);
 }
