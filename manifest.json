@@ -3,6 +3,9 @@
   "name":"Gakujo Poke GPA",
   "description": "GakujoにGPAポケモンを出します",
   "version": "1.0.0",
+  "permissions": [
+	"storage"
+  ],
   "content_scripts": [
     {
       "matches": ["https://gakujo.shizuoka.ac.jp/kyoumu/departmentGpa.do*", "https://gakujo.shizuoka.ac.jp/kyoumu/gpa.do*"],
