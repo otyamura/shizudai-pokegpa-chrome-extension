@@ -5,9 +5,9 @@
   "version": "1.0.0",
   "content_scripts": [
     {
-      "matches": ["https://gakujo.shizuoka.ac.jp/kyoumu/departmentGpa.do*"],
-      "js":["jquery-3.6.0.min.js", "content.js"],
-      "run_at":"document_end"
+      "matches": ["https://gakujo.shizuoka.ac.jp/kyoumu/departmentGpa.do*", "https://gakujo.shizuoka.ac.jp/kyoumu/gpa.do*"],
+      "js": ["jquery-3.6.0.min.js", "content.js"],
+      "run_at": "document_end"
     }
   ]
 }
