@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name":"Gakujo Poke GPA",
-  "description": "GakujoのGPAポケモンを出します",
+  "description": "GakujoにGPAポケモンを出します",
   "version": "1.0.0",
   "content_scripts": [
     {
